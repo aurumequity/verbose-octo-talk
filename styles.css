@@ -707,12 +707,17 @@ nav {
   line-height: 1.1;
 }
 
-.section, 
-.intel-file-section, /* or whatever class that box uses */
+.section,
+.intel-file-section,
 #about-the-signal {
   background-color: var(--ink); /* This ensures text doesn't overlap visually */
   position: relative;
   z-index: 1;
+}
+
+.intel-file-wrapper {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }
 
 /* ═══════════════════════════════════════════
